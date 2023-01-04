@@ -1,0 +1,67 @@
+.checkout__bill {
+    background: rgb(204, 226, 219);
+    padding: 50px;
+    margin-top: 4vw;
+  }
+  
+  .checkout__total {
+    border-top: 1px solid navy;
+    padding-top: 36px;
+  }
+  .checkoutpage{
+    background-color: #bad1c9;
+height: 100vw;
+   margin-top: -6.7vw;
+  }
+  .checkout__form{
+    width: 50vw;
+    /* height: 50vw; */
+   
+  }
+form input{
+  
+  height: 2vw;
+  margin-bottom: 1vw;
+  border-radius: 5px;
+ border: 1px solid  brown;
+ background: transparent;
+}
+.mb-4{
+  margin-top: 7vw;
+}
+
+
+
+@media only  screen and (max-width: 575px) {
+  .checkout__bill {
+    background: rgb(204, 226, 219);
+    padding: 50px;
+    margin-top: 4vw;
+  }
+  
+  .checkout__total {
+    border-top: 1px solid navy;
+    padding-top: 36px;
+  }
+  .checkoutpage{
+    background-color: #bad1c9;
+height: 200vw;
+   margin-top: -27vw;
+  }
+  .checkout__form{
+    width: 50vw;
+    /* height: 50vw; */
+   
+  }
+form input{
+  
+  height: 6vw;
+  margin-bottom: 1vw;
+  border-radius: 5px;
+ border: 1px solid  brown;
+ background: transparent;
+}
+.mb-4{
+  margin-top: 7vw;
+}
+}

@@ -1,0 +1,532 @@
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
+
+ /* =======================MONALISA section====================== */
+*{
+  margin: 0;
+  padding: 0;
+}
+ .feature__title {
+   padding-top: 4vw;
+
+ }
+
+ .first__section {
+   background-color: #bad1c9;
+   width: 100%;
+height: 43vw;
+ }
+
+
+ .mainphoto {
+   height: 43vw;
+   margin-bottom: -8vw;
+   width: 60vw;
+   margin-left: -20vw;
+   margin-top: -3.1vw;
+   box-shadow: #6c8b88;
+   object-fit: cover;
+
+ }
+
+ .formenubtn {
+   position: absolute;
+  
+   border-radius: 5px;
+ 
+   height: 4vw;
+   margin-left: 55vw;
+   margin-top: -20vw;
+   justify-content: center;
+ } 
+
+ .for__menu-btn {
+   /* /* background-color: blue; */
+   border-radius: 5px;
+   width: 15vw;
+   height: 4vw;
+   /* margin-left: 5vw; */
+   /* padding-top: 3vw; */
+   position: relative;
+   overflow: hidden;
+   font-weight: bold;
+   border: 3px solid navy;
+   background: transparent;
+   color: navy;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ .for__menu-btn:hover {
+   background-color: #6c8b88;
+
+ }
+
+
+
+ /* ================WHAT WE SERVE section==================== */
+
+ .servesection {
+   margin-top: -3.5vw;
+   background-color: #bad1c9 !important;
+   width: 100%;
+   height: 40vw;
+   color: brown;
+ }
+
+ .mt-5 {
+   padding-top: 5vw;
+ }
+.sekiller{
+  width: 7vw;
+
+}
+ /* ================MENU section================== */
+
+ .food__category {
+   background: #bad1c9;
+   text-align: center;
+   margin-top: 8px;
+   padding: 20px 0px;
+   border-radius: 8px;
+ }
+
+ .food__category button {
+   border: none;
+   outline: none;
+   padding: 7px 20px;
+   background: transparent;
+   color: navy;
+   font-weight: 700;
+ }
+
+
+ .foodBtnActive {
+   background: navy !important;
+   border-radius: 5px;
+   color: whitesmoke !important;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and(min-width:1000px) and (max-width:1980px) {
+ 
+   /* ============= MONALISA section ================== */
+
+
+   .first__section {
+     background-color: #bad1c9;
+     width: 100%;
+   height: 45vw;
+   }
+
+
+   .mainphoto{
+   /* display: none; */
+   height: 30vw;
+   width: 69vw;
+   margin-left: -20vw;
+   margin-top: -5vw;
+   margin-bottom: 3vw; 
+   object-fit: cover;
+   }
+
+    .formenubtn {
+    position: absolute;
+   
+    border-radius: 5px;
+    /* width: 35vw; */
+    height: 4vw;
+    margin-left: 70vw; 
+     margin-top: -19vw;
+    justify-content: center;
+  } 
+  
+  
+   .for__menu-btn {
+     /* /* background-color: blue; */
+     border-radius: 5px;
+     /* width: 100vw; */
+     height: 10vw;
+     /* padding-left: 15vw; */
+     padding-top: -11vw;
+     /* width: 35vw; */
+     overflow: hidden;
+     font-weight: bold;
+  
+
+     border: 3px solid navy;
+     background: transparent;
+     color: navy;
+     font-size: 9px;
+     /* padding: -2px; */
+     text-align: center;
+   }
+
+   .for__menu-btn:hover {
+     background-color: #6c8b88;
+
+   }
+
+ 
+   /* =================WHAT WE SERVE SECTION============= */
+   
+   .servesection {
+     margin-top: -15vw;
+     background-color: #bad1c9 !important;
+     width: 100%;
+     height: 40vw;
+     color: brown;
+   }
+
+   .mt-5 {
+     padding-top: 1vw;
+ 
+   }
+/* .sekiller{
+  width: 10vw;
+  margin-top: -5vw;
+  display: flex;
+  
+} */
+   .feature__title {
+     margin-top: -3vw;
+     margin-left: 2vw;
+   }
+
+   .feature__item h5 {
+     font-size: 0.8rem;
+    
+    margin-top: -7vw;
+    margin-left: 25vw;
+   }
+
+  
+
+/* ==========MENU SECTION============= */
+
+.setircategory{
+  width: 100%;
+  /* padding-left: -5vw; */
+ 
+}
+   .food__category {
+    background: #bad1c9;
+    text-align: center;
+    margin-top: 8px;
+    /* padding: 20px 0px; */
+    border-radius: 8px;
+  }
+ 
+  .food__category button {
+    border: none;
+    outline: none;
+    /* padding: 7px 20px; */
+    background: transparent;
+    color: navy;
+    font-weight: 600;
+    font-size: 14px;
+  }
+ 
+ 
+  .foodBtnActive {
+    background: navy !important;
+    border-radius: 5px;
+    color: whitesmoke !important;
+  }
+ 
+ 
+ 
+  }
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:992px) {
+
+
+    .first__section {
+      background-color: #bad1c9;
+      width: 100%;
+      /* height: 50vw; */
+    }
+ 
+ 
+    .mainphoto{
+    /* display: none; */
+    height: 40vw;
+    width: 79vw;
+    margin-left: -20vw;
+    margin-top: -5.5vw;
+  
+    /* object-fit: cover; */
+    }
+ 
+     .formenubtn {
+     position: absolute;
+    
+     border-radius: 5px;
+     /* width: 35vw; */
+     height: 4vw;
+     margin-left: 70vw; 
+      margin-top: -13vw;
+     justify-content: center;
+   } 
+   
+   
+    .for__menu-btn {
+      /* /* background-color: blue; */
+      border-radius: 5px;
+      /* width: 100vw; */
+      height: 5vw;
+      /* padding-left: 15vw; */
+      padding-top: -11vw;
+      /* width: 35vw; */
+      overflow: hidden;
+      font-weight: bold;
+   
+ 
+      border: 3px solid navy;
+      background: transparent;
+      color: navy;
+      font-size: 14px;
+      /* padding: -2px; */
+      text-align: center;
+    }
+ 
+    .for__menu-btn:hover {
+      background-color: #6c8b88;
+ 
+    }
+ 
+  
+    /* =================WHAT WE SERVE SECTION============= */
+    
+    .servesection {
+      margin-top: -15vw;
+      background-color: #bad1c9 !important;
+      width: 100%;
+      height: 50vw;
+      color: brown;
+    }
+ 
+    .mt-5 {
+      padding-top: 1vw;
+  
+    }
+ .sekiller{
+   /* width: 1vw; */
+   margin-top: -4vw;
+   display: flex;
+   
+ }
+    .feature__title {
+      margin-top: -3vw;
+      margin-left: 2vw;
+    }
+ 
+    .feature__item h5 {
+      font-size: 0.8rem;
+     
+     margin-top: -5vw;
+     margin-left: 15vw;
+    }
+ 
+   
+ 
+ /* ==========MENU SECTION============= */
+ 
+ .setircategory{
+   width: 100%;
+   /* padding-left: -5vw; */
+  
+ }
+    .food__category {
+     background: #bad1c9;
+     text-align: center;
+     margin-top: 8px;
+     /* padding: 20px 0px; */
+     border-radius: 8px;
+   }
+  
+   .food__category button {
+     border: none;
+     outline: none;
+     /* padding: 7px 20px; */
+     background: transparent;
+     color: navy;
+     font-weight: 600;
+     font-size: 14px;
+   }
+  
+  
+   .foodBtnActive {
+     background: navy !important;
+     border-radius: 5px;
+     color: whitesmoke !important;
+   }
+  
+ 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only  screen  and (max-width:575px) {
+
+
+  /* ============= MONALISA section ================== */
+
+
+   .first__section {
+     background-color: #bad1c9;
+     width: 100%;
+   height: 45vw;
+   }
+
+
+   .mainphoto{
+   /* display: none; */
+   height: 45.5vw;
+   width: 69vw;
+   margin-left: -20vw;
+   margin-top: -12.6vw;
+   margin-bottom: 3vw; 
+   object-fit: cover;
+   }
+
+    .formenubtn {
+    position: absolute;
+   
+    border-radius: 5px;
+    /* width: 35vw; */
+    height: 4vw;
+    margin-left: 70vw; 
+     margin-top: -29vw;
+    justify-content: center;
+  } 
+  
+  
+   .for__menu-btn {
+     /* /* background-color: blue; */
+     border-radius: 5px;
+     /* width: 100vw; */
+     height: 10vw;
+     /* padding-left: 15vw; */
+     padding-top: -11vw;
+     /* width: 35vw; */
+     overflow: hidden;
+     font-weight: bold;
+  
+
+     border: 3px solid navy;
+     background: transparent;
+     color: navy;
+     font-size: 9px;
+     /* padding: -2px; */
+     text-align: center;
+   }
+
+   .for__menu-btn:hover {
+     background-color: #6c8b88;
+
+   }
+
+ 
+   /* =================WHAT WE SERVE SECTION============= */
+   
+    .servesection {
+     margin-top: -15vw;
+     background-color: #bad1c9 !important;
+     width: 100%;
+     height: 75vw;
+     color: brown;
+   }
+
+   .mt-5 {
+     padding-top: 1vw;
+ 
+   }
+.sekiller{
+  width: 3vw;
+  height: 8vw; 
+  
+
+margin-top: -8vw; 
+margin-right: -30vw; 
+
+}
+   .feature__title {
+     margin-top: -10vw;
+     margin-left: -2vw;
+   }
+
+   .feature__item h5 {
+     font-size: 0.8rem;
+    padding-top: -8vw;
+    margin-top: -8vw;
+    margin-left: 35vw;
+   
+   } 
+
+  
+
+/* ==========MENU SECTION============= */
+
+.setircategory{
+  width: 100%;
+  /* padding-left: -5vw; */
+ 
+}
+   .food__category {
+    background: #bad1c9;
+    text-align: center;
+    margin-top: 8px;
+    /* padding: 20px 0px; */
+    border-radius: 8px;
+  }
+ 
+  .food__category button {
+    border: none;
+    outline: none;
+    /* padding: 7px 20px; */
+    background: transparent;
+    color: navy;
+    font-weight: 600;
+    font-size: 14px;
+  }
+ 
+ 
+  .foodBtnActive {
+    background: navy !important;
+    border-radius: 5px;
+    color: whitesmoke !important;
+  }
+ 
+ 
+
+ }

@@ -1,0 +1,57 @@
+.menupage{
+ /* background-color: rgb(204, 226, 219); */
+ width: 100%;
+ height: 100%;
+  margin-top: -8vw;
+
+}
+.allcategory{
+  background-color: white;
+  height: fit-content;
+}
+.secimadi{
+  margin-right: 2vw;
+
+}
+.secimadi1{
+  gap: 4;
+  margin-right: 5vw;
+}
+@media only screen and (max-width: 600px) {
+
+  .menupage{
+    background: none;
+    width: 100%;
+    height: 100%;
+     margin-top: -7vw;
+   }
+   .allcategory{
+     background-color: white;
+
+   }
+   .secimadi{
+    margin-right: 2vw;
+  
+  }
+ 
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575px) {
+
+
+
+   .allcategory{
+     background-color: white;
+     margin-top: -30vw;
+   }
+   
+
+
+}

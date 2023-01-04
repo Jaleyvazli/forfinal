@@ -1,0 +1,138 @@
+.generalreservation {
+    height: 60vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: grid;
+    place-items: center;
+   
+}
+.allitems{
+    background-color:rgba(245, 222, 179, 0.644);
+    height: 60%;
+    padding-top: -29vw;
+    margin-left: -60vw;
+    margin-top: -10vw;
+}
+.formitem{
+   
+  color: black;
+  margin: 0.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+  grid-gap: 1rem;
+  font-weight: 700;
+}
+  form {
+    margin: 3rem auto;
+    width: 500px;
+    max-width: 80%;
+    padding: 1rem;
+   
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e34728;
+    background: rgba(245, 222, 179, 0.801);
+    margin: 1.2rem 0;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+  }
+.submit-btn:hover{
+    background-color: rgba(255, 0, 0, 0.479);
+  color: black;
+}
+
+@media screen and(min-width:1000px) and (max-width:1780px) {
+
+  .generalreservation {
+    height: 180vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: grid;
+    place-items: center;
+   
+}
+.allitems{
+    background-color:rgba(245, 222, 179, 0.644);
+    height: 80vw;
+    padding-top: -10vw;
+    margin-left: -4vw;
+    margin-top: -55vw;
+}
+.formitem{
+   
+  color: black;
+  margin: 0.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+  grid-gap: 1rem;
+  font-weight: 700;
+}
+  form {
+    margin: 3rem auto;
+    width: 450px;
+    max-width: 80%;
+    padding: 1rem;
+   
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+
+  .generalreservation {
+    height: 180vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: grid;
+    place-items: center;
+   
+}
+.allitems{
+    background-color:rgba(245, 222, 179, 0.644);
+    height: 80vw;
+    padding-top: -10vw;
+    margin-left: -4vw;
+    margin-top: -55vw;
+}
+.formitem{
+   
+  color: black;
+  margin: 0.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+  grid-gap: 1rem;
+  font-weight: 700;
+}
+  form {
+    margin: 3rem auto;
+    width: 450px;
+    max-width: 80%;
+    padding: 1rem;
+   
+  }
+
+
+}
