@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-// import logo from "../../assets/images/logo.png";
 import { Container } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";

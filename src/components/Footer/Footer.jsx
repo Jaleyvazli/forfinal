@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 
-
 import "../../styles/footer.css";
 
 
@@ -12,16 +11,7 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          {/* <Col lg="3" md="4" sm="6">
-            <div className=" footer__logo text-start">
-             
-              <h5>Tasty Treat</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
-              </p>
-            </div>
-          </Col> */}
+       
 
           <Col lg="10" md="4" sm="6">
          
