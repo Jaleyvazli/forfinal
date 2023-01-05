@@ -4,13 +4,15 @@ import CommonSection from "../components/UI/common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
-const Register = () => {
-  const signupNameRef = useRef();
+const Register = () => {                          
+  const signupNameRef = useRef();                  //useRef- Page refresh olunduqda yazilan melumatlarin yeniden gosterilmemesi ucun istifade olunur
   const signupPasswordRef = useRef();
   const signupEmailRef = useRef();
 
   const submitHandler = (e) => {
     e.preventDefault();
+
+    alert("Your registration has been successfully registered.");
   };
 
   return (

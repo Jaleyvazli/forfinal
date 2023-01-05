@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";                                 //Bu fayl Cart section ucundur
 
 import CommonSection from "../components/UI/common-section/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
@@ -9,7 +9,7 @@ import { cartActions } from "../store/shopping-cart/cartSlice";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const cartItems = useSelector((state) => state.cart.cartItems);
+  const cartItems = useSelector((state) => state.cart.cartItems);        //map e ekvivalentdir.istediyimiz deyerleri sece bilirik
   const totalAmount = useSelector((state) => state.cart.totalAmount);
   return (
     <Helmet title="Cart">

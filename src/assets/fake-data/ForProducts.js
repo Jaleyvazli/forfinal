@@ -6,13 +6,13 @@ import { Container, Row, Col  } from "reactstrap";
 import products from "../fake-data/products";
 
 
-
 import ProductCard from "../../components/UI/product-card/ProductCard";
 
 
 
-const ForProducts = () => {
-    const [category, setCategory] = useState("ALL");
+const ForProducts = () => { 
+  // useState Hook bizə funksiya komponentindəki vəziyyəti izləməyə imkan verir.Default olaraq birinci ALL kategoriyasi acilacaq
+    const [category, setCategory] = useState("ALL");         
     const [allProducts, setAllProducts] = useState(products);
   
   
@@ -57,13 +57,14 @@ const ForProducts = () => {
   
         setAllProducts(filteredProducts);
       }
-    }, [category]);
+    }, [category]);                  //Category dəyişəni yenilənirsə, effekt yenidən işləyəcək ve melumatlar deyisdirilecek
 
 return(
-<div className="allmenu">
-  <section className="menupage">
-  <Container className="allcategory">
-    <Row className="setircategory">
+  //Grid system istifade olunub.mes,Col lg=12 large device ucun sutun uzunlugunun 12 olacagini gosterir   //mt-4 margin-top 5px demekdir
+<div className="allmenu">          
+  <section className="menupage">           
+  <Container className="allcategory">                       
+    <Row className="setircategory"> 
       
       <Col lg="12">
         <div className="food__category  ">
@@ -127,7 +128,7 @@ return(
       </Col>
 
       {allProducts.map((item) => (
-        <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mt-5">
+        <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mt-5">            
           <ProductCard item={item} />
         </Col>
       ))}

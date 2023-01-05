@@ -1,6 +1,6 @@
-.cart__item-info img {
+.cart__item-info img {                                     /* acilib baglanan sebet dizayni ucundur bu file*/
     width: 35px;
-    height: 35px;
+    height: 35px;     
     object-fit: cover;
   }
   

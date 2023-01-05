@@ -8,14 +8,14 @@ import "slick-carousel/slick/slick-theme.css";
 import "./index.css";
 
 import store from "./store/store";
-import { Provider } from "react-redux";
+import { Provider } from "react-redux";          //Butun app.js i redux a daxil olmaga imkan verir
 
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Provider store={store}>
+      <Provider store={store}>           
         <App />
       </Provider>
     </Router>

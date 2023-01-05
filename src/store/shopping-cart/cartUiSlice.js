@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";           //createSlice metodu redux-mağazanın bir hissəsini yaratmağa kömək edir
 
 const cartUiSlice = createSlice({
   name: "cartUi",
@@ -6,7 +6,7 @@ const cartUiSlice = createSlice({
 
   reducers: {
     toggle(state) {
-      state.cartIsVisible = !state.cartIsVisible;
+      state.cartIsVisible = !state.cartIsVisible;           //sebet iconunun acilmasi ucun lazimdir bu
     },
   },
 });

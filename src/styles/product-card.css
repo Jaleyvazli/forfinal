@@ -1,5 +1,5 @@
-.product__item {
-    border-right: 1px solid #fde4e4;
+.product__item {                                           /*ALL FOODS section ucundur bu file */
+    border-right: 1px solid #fde4e4;        
     text-align: center;
     padding: 30px;
     cursor: pointer;

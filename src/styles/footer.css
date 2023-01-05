@@ -67,16 +67,7 @@
     color: #212245;
   }
   
-  /* .social__links span i {
-    padding: 5px;
-    background: brown;
-    color: #fff;
-    border-radius: 50%;
-    
-  }
-  
-  */
-  
+ 
 
 
  @media screen and (min-width: 1000px) and (max-width: 1980px) {
@@ -111,10 +102,7 @@
       font-weight: 600;
       margin-top: 3vw;
     }
-    /* .samalyot{
-      position: absolute;
-   margin-left: 16vw;
-    } */
+  
     .newsletter {
       padding: 10px;
      
@@ -136,14 +124,7 @@
       outline: none;
     }
     
-    /* .newsletter span {
-      background: brown;
-      padding: 5px 30px;
-      border-radius: 5px;
-      position: absolute;
-  justify-content: flex-end;
- width: 3vw;
-    } */
+
     .invite{
       padding-bottom: 7px;
       padding-top: 5px;

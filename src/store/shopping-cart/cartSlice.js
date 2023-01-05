@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";                                  //bu fayl cart section ucundur.
 
 const items =
   localStorage.getItem("cartItems") !== null
@@ -41,9 +41,9 @@ const cartSlice = createSlice({
       state.totalQuantity++;
 
       if (!existingItem) {
-        // ===== note: if you use just redux you should not mute state array instead of clone the state array, but if you use redux toolkit that will not a problem because redux toolkit clone the array behind the scene
+       
 
-        state.cartItems.push({
+        state.cartItems.push({                        //Push () metodu massivin sonuna bir və ya daha çox sayda element əlavə etmək və massivin yeni uzunluğu ilə qaytarmaq ucundur
           id: newItem.id,
           title: newItem.title,
           image01: newItem.image01,
@@ -57,7 +57,7 @@ const cartSlice = createSlice({
           Number(existingItem.totalPrice) + Number(newItem.price);
       }
 
-      state.totalAmount = state.cartItems.reduce(
+      state.totalAmount = state.cartItems.reduce(             //reduce() total ve item in evvelki deyerlerine 0 menimsedir indiki deyerlerine ise uygun qiymeti
         (total, item) => total + Number(item.price) * Number(item.quantity),
 
         0

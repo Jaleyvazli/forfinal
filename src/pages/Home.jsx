@@ -15,12 +15,6 @@ import featureImg01 from "../assets/images/service-01.png";
 import featureImg02 from "../assets/images/service-02.png";
 import featureImg03 from "../assets/images/service-03.png";
 
-// import products from "../assets/fake-data/products.js";
-
-
-// import ProductCard from "../components/UI/product-card/ProductCard.jsx";
-
-
 
 
 
@@ -71,16 +65,16 @@ const Home = () => {
       </section>
 
       <section className="servesection">
-        <Container>
+        <Container>             
           <Row>
             <Col lg="12" className="text-center">
               <h2 className="feature__title mb-1" > What we <span>serve</span></h2>
             </Col>
-
+    
             {featureData.map((item, index) => (
-              <Col lg="4" md="6" sm="6" key={index} className="mt-5">
-                <div className="feature__item  px-4 py-3">
-                  <img
+              <Col lg="4" md="6" sm="6" key={index} className="mt-5">                     
+                <div className="feature__item  px-4 py-3">                        
+                  <img                                              
                     src={item.imgUrl}
                     alt="feature-img"
                     className="sekiller w-25 mb-3"
@@ -88,7 +82,7 @@ const Home = () => {
                   <h5 className=" fw-bold mb-3">{item.title}</h5>
 
                 </div>
-              </Col>
+              </Col>                
             ))}
           </Row>
         </Container>

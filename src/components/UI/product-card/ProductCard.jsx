@@ -11,6 +11,7 @@ const ProductCard = (props) => {
   const { id, title, image01, price } = props.item;
   const dispatch = useDispatch();
 
+  //useDispatch bir nov map funk ni yerine yetirir.Yeni dispatch daxilinde yazilan deyisenlerin uygun qiymetleri store dan secilir ve onlardan ibaret massiv yaradilir
   const addToCart = () => {
     dispatch(
       cartActions.addItem({

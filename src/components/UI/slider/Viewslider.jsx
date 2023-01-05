@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from '../slider/Slider'
-const App = () => {
+const ViewSlider= () => {
 
   return (
     <div>
@@ -10,4 +10,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ViewSlider;
